@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 class="gallery-title">Image Gallery</h2>
+
+    <div class="gallery">
+        <img src="https://st.depositphotos.com/2001755/3622/i/450/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" alt="Image 1" onclick="openModal(0)">
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg" alt="Image 2" onclick="openModal(1)">
+        <img src="https://images.all-free-download.com/images/thumbjpg/beautiful_collection_expensive_213989.jpg" alt="Image 3" onclick="openModal(2)">
+        <img src="https://i.pinimg.com/736x/2c/1d/13/2c1d131fd650e82b9083ebc9cef6a9bf.jpg" alt="Image 4" onclick="openModal(3)">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="Image 5" onclick="openModal(4)">
+        <img src="https://wallpapercave.com/wp/waLWSGZ.jpg" alt="Image 6" onclick="openModal(5)">
+        <img src="https://wallpapers.com/images/featured/hd-nature-ngdfb9h966h4z3le.jpg" alt="Image 7" onclick="openModal(6)">
+        <img src="https://www.itl.cat/pngfile/big/286-2867258_nature-wallpaper-best-hd-wallpaper-good-morning-yealow.jpg" alt="Image 8" onclick="openModal(7)">
+        <img src="https://i.pinimg.com/736x/49/ee/34/49ee3447eef36b7a2989a080be5222b7.jpg" alt="Image 10" onclick="openModal(8)">
+        <img src="https://w0.peakpx.com/wallpaper/564/532/HD-wallpaper-rain-drops-water-rain-drops-flowers-nature.jpg" alt="Image 11" onclick="openModal(9)">
+        <img src="https://static.vecteezy.com/system/resources/previews/046/607/061/non_2x/gentle-raindrops-create-a-soothing-atmosphere-for-meditation-photo.jpeg" alt="Image 12" onclick="openModal(10)">
+        <img src="https://w0.peakpx.com/wallpaper/881/553/HD-wallpaper-best-horror-ghost-with-sword-sword-danger-thumbnail.jpg" alt="Image 13" onclick="openModal(11)">
+        <img src="https://creator.nightcafe.studio/jobs/H9R3rFde4HqqhkBAwe4r/H9R3rFde4HqqhkBAwe4r--1--f7kqr.jpg" alt="Image 14" onclick="openModal(12)">
+        <img src="https://img.freepik.com/premium-photo/beautiful-sunset-black-sea_94937-204.jpg?semt=ais_hybrid" alt="Image 15" onclick="openModal(13)">
+        <img src="https://images.stockcake.com/public/f/5/c/f5c9107b-24b4-4604-b52a-920bc86cbc51_large/peacock-displaying-feathers-stockcake.jpg" alt="Image 16" onclick="openModal(14)">
+        <img src="https://cdn.pixabay.com/photo/2020/06/12/12/34/bird-bath-5290285_640.jpg" alt="Image 17" onclick="openModal(15)">
+
+    </div>
+
+    <!-- Fullscreen Modal -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="fullImage">
+        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="next" onclick="changeImage(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
