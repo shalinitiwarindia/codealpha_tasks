@@ -2,7 +2,7 @@
 
 ## 🖼️ Overview
 
-This **Image Gallery** allows users to view a collection of images, with features for image navigation through modals. The project is designed using **HTML**, **CSS** (with media queries and animations), and **JavaScript**. It provides a responsive, mobile-friendly design with smooth interactions, making it a perfect fit for web development interviews.
+This **Image Gallery** allows users to view a collection of images, with features for image navigation through modals. The project is designed using **HTML**, **CSS** (with media queries and animations), and **JavaScript**. It provides a responsive, mobile-friendly design with smooth interactions.
 
 ## 📦 Features
 
