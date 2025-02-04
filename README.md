@@ -41,6 +41,9 @@ To run this project on your local machine, follow these steps:
 4. **Enjoy the gallery!**
 
 ## 📱 Screenshot
+![image](https://github.com/user-attachments/assets/64c0de3b-443b-4864-8e6d-e02c31113733)
+![image](https://github.com/user-attachments/assets/6f388da9-87c5-4a3d-80f0-987fbb34fa30)
+
 
 
 https://github.com/user-attachments/assets/2a962aa7-b320-4ed6-b8fe-5d8dae0fcf80
